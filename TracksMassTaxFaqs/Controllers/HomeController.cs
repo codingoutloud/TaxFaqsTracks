@@ -17,7 +17,6 @@ namespace TracksMassTaxFaqs.Controllers
     {
         //
         // GET: /Home/
-
         public ActionResult Index()
         {
            var client = new HttpClient();
